@@ -30,7 +30,7 @@ protected:
 
 protected	slots:
 
-	void	label_test();
+
 
 };
 
