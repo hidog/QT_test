@@ -2,9 +2,12 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+
+#if defined(WIN32)
 #include "../VS2008/VS2008/ui_mainwindow.h"
-
-
+#else
+#include "ui_mainwindow.h"
+#endif
 
 
 
