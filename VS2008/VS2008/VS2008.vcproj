@@ -23,8 +23,8 @@
 			>
 			<Tool
 				Name="VCNMakeTool"
-				BuildCommandLine="qmake -project&amp;&amp;qmake ../../QT_project/project.pro&amp;&amp;nmake debug"
-				ReBuildCommandLine="nmake debug-clean&amp;&amp;qmake -project&amp;&amp;qmake ../../QT_project/project.pro&amp;&amp;nmake debug"
+				BuildCommandLine="qmake project.pro&amp;&amp;nmake debug"
+				ReBuildCommandLine="nmake debug-cleant&amp;&amp;qmake project.pro&amp;&amp;nmake debug"
 				CleanCommandLine="nmake debug-clean"
 				Output=""
 				PreprocessorDefinitions="WIN32;_DEBUG"
@@ -90,6 +90,14 @@
 			</File>
 			<File
 				RelativePath="..\..\QT_src\mainwindow.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="pro"
+			>
+			<File
+				RelativePath=".\project.pro"
 				>
 			</File>
 		</Filter>
