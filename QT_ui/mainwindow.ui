@@ -73,6 +73,7 @@
     </property>
    </widget>
   </widget>
+  <widget class="QStatusBar" name="statusBar"/>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
@@ -82,22 +83,52 @@
      <height>22</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuTesa">
+    <property name="title">
+     <string>tesa</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionK54g4hk"/>
+    <addaction name="separator"/>
+    <addaction name="actionHow_can_i"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>編輯</string>
+    </property>
+    <addaction name="action_8"/>
+    <addaction name="action_9"/>
+    <addaction name="separator"/>
+    <addaction name="action_11"/>
+   </widget>
+   <addaction name="menuTesa"/>
+   <addaction name="menu"/>
   </widget>
-  <widget class="QToolBar" name="mainToolBar">
-   <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
-   </attribute>
-   <attribute name="toolBarBreak">
-    <bool>false</bool>
-   </attribute>
-  </widget>
-  <widget class="QStatusBar" name="statusBar"/>
-  <widget class="QDockWidget" name="dockWidget">
-   <attribute name="dockWidgetArea">
-    <number>4</number>
-   </attribute>
-   <widget class="QWidget" name="dockWidgetContents"/>
-  </widget>
+  <action name="action_8">
+   <property name="text">
+    <string> 這是測試</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>測試二</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="text">
+    <string>這是測試三</string>
+   </property>
+  </action>
+  <action name="actionK54g4hk">
+   <property name="text">
+    <string>k54g4hk</string>
+   </property>
+  </action>
+  <action name="actionHow_can_i">
+   <property name="text">
+    <string>how can i</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
